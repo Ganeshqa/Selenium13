@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching an application in a browser=firefox]]>
+    </line>
+    <line>
+      <![CDATA[no such text present in an application]]>
+    </line>
+  </reporter-output>
+  <suite name="TrainingTestSuite" duration-ms="13613" started-at="2020-12-23T02:16:57Z" finished-at="2020-12-23T02:17:10Z">
+    <groups>
+    </groups>
+    <test name="Testing the functionality of actitime application" duration-ms="13613" started-at="2020-12-23T02:16:57Z" finished-at="2020-12-23T02:17:10Z">
+      <class name="testngscripts.Alert_script">
+        <test-method status="PASS" signature="Launchbrowser(java.lang.String, java.lang.String)[pri:0, instance:testngscripts.Alert_script@cc285f4]" name="Launchbrowser" is-config="true" duration-ms="7900" started-at="2020-12-23T07:46:57Z" finished-at="2020-12-23T07:47:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://aptonline.in/citizenportal/home.aspx/UserInterface/Citizen/LoginForm.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching an application in a browser=firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="Alertmethod()[pri:0, instance:testngscripts.Alert_script@cc285f4]" name="Alertmethod" duration-ms="5683" started-at="2020-12-23T07:47:05Z" finished-at="2020-12-23T07:47:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no such text present in an application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Alertmethod -->
+      </class> <!-- testngscripts.Alert_script -->
+    </test> <!-- Testing the functionality of actitime application -->
+  </suite> <!-- TrainingTestSuite -->
+</testng-results>

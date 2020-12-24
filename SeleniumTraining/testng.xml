@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TrainingTestSuite" annotations= "JDK" thread-count="1">
+
+ 
+ <test name="Testing the functionality of actitime application">
+ 
+ <parameter name="browsername" value="firefox"></parameter>
+
+<parameter name="url" value="https://aptonline.in/citizenportal/home.aspx/UserInterface/Citizen/LoginForm.aspx"></parameter>
+   
+  <classes>
+
+    
+	 <class name="testngscripts.Alert_script"/> 
+	
+     
+  </classes>
+
+</test>
+
+ 
+</suite>
